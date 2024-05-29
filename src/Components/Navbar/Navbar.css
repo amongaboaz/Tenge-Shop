@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo img {
+  height: 40px;
+  background-color: black;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-item a:hover {
+  color: red;
+}
+
+.navbar-cart {
+  font-size: 24px;
+}
+
+.navbar-cart:hover {
+  color: red;
+}

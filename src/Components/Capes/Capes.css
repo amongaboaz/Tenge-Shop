@@ -1,0 +1,68 @@
+/* src/CapeCards.css */
+.cape-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  
+  .cape-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .cape-card {
+    width: 30%; /* Adjust the width as needed */
+    max-width: 300px; /* Limit the maximum width */
+    height: auto; /* Allow the height to adjust based on content */
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cape-card:hover {
+    transform: translateY(-5px);
+  }
+  .cape-cards h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .cape-card img {
+    width: 100%;
+    height: auto; /* Ensure the image scales proportionally */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .cape-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .cape-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .cape-card button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cape-card button:hover {
+    background-color:black;
+  }
+  

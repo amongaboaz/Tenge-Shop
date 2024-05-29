@@ -1,0 +1,72 @@
+/* src/Components/Umbrellas/Umbrellas.css */
+
+/* Umbrella Cards */
+.umbrella-cards {
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 8`0px;
+    /* Center align the text within the container */
+  }
+  
+  /* Umbrella Row */
+  .umbrella-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Umbrella Card */
+  .umbrella-card {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .umbrella-cards h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .umbrella-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .umbrella-card h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .umbrella-card p {
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .umbrella-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .umbrella-card button:hover {
+    background-color: black;
+  }
+  
+  /* Center align the h1 tag */
+  .umbrella-cards h1 {
+    margin-bottom: 20px; /* Add some space between the h1 and the cards */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the h1 takes up the full height of its container */
+  }
+  

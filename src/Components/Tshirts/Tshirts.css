@@ -1,0 +1,62 @@
+/* src/Components/Tshirts/Tshirts.css */
+
+/* T-shirt Cards */
+.tshirt-cards {
+    margin: 20px;
+    text-align: center; /* Center align the content */
+    margin-top: 60px;
+    margin-bottom: 150px;
+  }
+  
+  /* T-shirt Row */
+  .tshirt-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* T-shirt Card */
+  .tshirt-card {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .tshirt-cards h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .tshirt-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .tshirt-card h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .tshirt-card p {
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .tshirt-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tshirt-card button:hover {
+    background-color: black;
+  }
+  

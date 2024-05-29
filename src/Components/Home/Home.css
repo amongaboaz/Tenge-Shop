@@ -1,0 +1,40 @@
+/* src/Home.css */
+.home {
+    padding: 20px;
+    color: black;
+    background: url(../Assets/home_backg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-header {
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .home-header h1 {
+    font-size: 60px;
+    color: red;
+    margin-top: 0;
+    font-weight: 700;
+  }
+  
+  .home-header p {
+    font-size: 20px;
+    color: black;
+    line-height: 1px;
+    font-weight: 500;
+  }
+  
+ 

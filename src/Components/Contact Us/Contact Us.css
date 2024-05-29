@@ -1,0 +1,63 @@
+.contact {
+  padding: 20px; /* Reduced padding */
+  max-width: 500px; /* Reduced max width */
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: auto; /* Adjusted height */
+  margin-top: 100px; /* Reduced top margin */
+  margin-bottom: 100px; /* Reduced bottom margin */
+  background-color: #ccc;
+}
+
+.contact h1 {
+  text-align: center;
+  color: red;
+  font-weight: 500;
+  font-size: 36px; /* Reduced font size */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Reduced gap */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  color: black;
+  font-size: 18px; /* Reduced font size */
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc; /* Added border */
+  border-radius: 10px;
+  font-size: 18px; /* Reduced font size */
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 80px; /* Reduced height */
+}
+
+button {
+  padding: 15px 30px; /* Reduced padding */
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  align-self: center;
+  font-size: 18px; /* Reduced font size */
+}
+
+button:hover {
+  background-color: black;
+}
